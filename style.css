@@ -2,3 +2,17 @@
   --primaryColor: #f0f5f9;
   --secondaryColor: #1e2022;
 }
+.container-1 {
+  background-color: var(--primaryColor);
+}
+.introduction {
+  text-align: center;
+  padding: 70px;
+}
+.intro-text {
+  font-style: italic;
+  font-weight: lighter;
+}
+h1 {
+  font-size: 500px;
+}
