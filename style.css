@@ -8,6 +8,7 @@
 .introduction {
   text-align: center;
   padding: 70px;
+  margin: auto 50px;
 }
 .intro-text {
   font-style: italic;
@@ -15,4 +16,10 @@
 }
 h1 {
   font-size: 500px;
+}
+.container {
+  margin: 20px auto;
+}
+.headline.projects {
+  font-weight: lighter;
 }
