@@ -17,6 +17,9 @@
 h1 {
   font-size: 500px;
 }
-.container {
+.container-2 {
   margin: 20px auto;
+}
+.about {
+  margin-top: 80px;
 }
