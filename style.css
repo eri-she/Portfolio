@@ -20,6 +20,6 @@ h1 {
 .container {
   margin: 20px auto;
 }
-.headline.projects {
-  font-weight: lighter;
+.img-center {
+  padding: 20px;
 }
