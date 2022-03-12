@@ -32,3 +32,9 @@ h1 {
 .c-projects {
   margin: 80px;
 }
+
+@media (max-width: 576px) {
+  .container {
+    text-align: center;
+  }
+}
