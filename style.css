@@ -17,9 +17,18 @@
 h1 {
   font-size: 500px;
 }
-.container-2 {
-  margin: 20px auto;
-}
+
 .about {
   margin-top: 80px;
+}
+.contact {
+  margin: 50px auto;
+  background: var(--primaryColor);
+  text-align: center;
+}
+.headline {
+  text-align: center;
+}
+.c-projects {
+  margin: 80px;
 }
