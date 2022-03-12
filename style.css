@@ -37,4 +37,7 @@ h1 {
   .container {
     text-align: center;
   }
+  .image {
+    display: none;
+  }
 }
