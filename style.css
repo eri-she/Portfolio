@@ -12,12 +12,15 @@
 }
 .intro-text {
   font-style: italic;
+  font-size: 23px;
   font-weight: lighter;
 }
 h1 {
   font-size: 500px;
 }
-
+.introduction h2 {
+  font-weight: lighter;
+}
 .about {
   margin-top: 80px;
 }
