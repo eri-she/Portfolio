@@ -32,6 +32,9 @@ h1 {
 .headline {
   text-align: center;
 }
+.headline-projects {
+  margin: 50px auto;
+}
 .c-projects {
   margin: 80px;
 }
