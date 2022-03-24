@@ -35,11 +35,16 @@ footer {
 }
 footer .contact a {
   margin: 0 20px;
-  background-color: var(--secondaryColor);
+  background: var(--secondaryColor);
   color: white;
   padding: 10px 12px;
   border-radius: 50%;
   font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .contact a :hover {
+  background: white;
+  color: var(--secondaryColor);
 }
 .headline {
   text-align: center;
