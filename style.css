@@ -23,10 +23,23 @@ h1 {
 .about {
   margin-top: 80px;
 }
-.contact {
+footer {
   margin: 50px auto;
+  padding: 20px;
   background: var(--primaryColor);
   text-align: center;
+  border-radius: 2%;
+}
+.contact {
+  margin-top: 40px;
+}
+footer .contact a {
+  margin: 0 20px;
+  background-color: var(--secondaryColor);
+  color: white;
+  padding: 10px 12px;
+  border-radius: 50%;
+  font-size: 18px;
 }
 .headline {
   text-align: center;
