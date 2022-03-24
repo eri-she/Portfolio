@@ -42,7 +42,7 @@ footer .contact a {
   font-size: 18px;
   transition: all 100ms ease-in-out;
 }
-footer .contact a :hover {
+footer .contact a:hover {
   background: white;
   color: var(--secondaryColor);
 }
