@@ -1,9 +1,11 @@
 :root {
   --primaryColor: #f0f5f9;
   --secondaryColor: #1e2022;
+  --secondaryColorGreen: #6d988675;
+  --primaryColorGreen: #6d9886;
 }
 .container-1 {
-  background-color: var(--primaryColor);
+  background-color: var(--secondaryColorGreen);
 }
 .introduction {
   text-align: center;
@@ -26,7 +28,7 @@ h1 {
 footer {
   margin: 50px auto;
   padding: 20px;
-  background: var(--primaryColor);
+  background: var(--secondaryColorGreen);
   text-align: center;
   border-radius: 2%;
 }
@@ -36,15 +38,15 @@ footer {
 footer .contact a {
   margin: 0 20px;
   background: var(--secondaryColor);
-  color: white;
+  color: var(--primaryColor);
   padding: 10px 12px;
   border-radius: 50%;
   font-size: 18px;
   transition: all 100ms ease-in-out;
 }
 footer .contact a:hover {
-  background: white;
-  color: var(--secondaryColor);
+  background: var(--primaryColorGreen);
+  color: var(--primaryColor);
 }
 .headline {
   text-align: center;
