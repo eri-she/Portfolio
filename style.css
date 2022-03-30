@@ -69,3 +69,13 @@ footer .contact a:hover {
 .me {
   border-radius: 50%;
 }
+.moreProjects {
+  color: var(--primaryColorGreen);
+
+  text-decoration: none;
+
+  font-size: 20px;
+}
+.moreProjects:hover {
+  color: var(--secondaryColor);
+}
