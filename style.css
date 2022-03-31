@@ -77,3 +77,8 @@ footer .contact a:hover {
 .moreProjects:hover {
   color: var(--secondaryColor);
 }
+small {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+}
