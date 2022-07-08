@@ -16,12 +16,18 @@
 .buttonContact {
   text-decoration: none;
   padding: 15px 15px;
-  border: 1px solid var(--secondaryColor);
-  color: var(--secondaryColor);
+  color: white;
+  font-weight: bolder;
   border-radius: 10px;
   background: var(--secondaryColorGreen);
   margin: auto 30px;
 }
+.buttonContact:hover {
+  color: var(--primaryColorGreen);
+  border: 1px solid var(--primaryColorGreen);
+  background-color: transparent;
+}
+
 .buttonAbout {
   text-decoration: none;
   padding: 15px 15px;
@@ -30,6 +36,10 @@
   border-radius: 10px;
   margin: auto 30px;
   font-weight: bolder;
+}
+.buttonAbout:hover {
+  background: var(--secondaryColorGreen);
+  color: white;
 }
 .intro-text {
   font-size: 25px;
